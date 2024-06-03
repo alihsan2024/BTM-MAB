@@ -28,7 +28,7 @@ const GeoLocation: React.FC = () => {
           const fetchCountry = async () => {
             try {
               const response = await axios.get(
-                `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=AIzaSyAr-lr0NLXtT58Q53qE53uvLQU5u8wHa9Y`
+                `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=`
               );
               const results = response.data.results;
               console.log(results);
