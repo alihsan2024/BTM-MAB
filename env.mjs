@@ -6,10 +6,12 @@ import { z } from "zod";
 export const env = createEnv({
   server: {
     // NEXTAUTH_SECRET: z.string().min(32),
+    NEXTAUTH_NEXTAUTH_GOOGLE_KEY: process.env.NEXTAUTH_NEXTAUTH_GOOGLE_KEY,
   },
   client: {},
   runtimeEnv: {
     // NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
+    NEXTAUTH_NEXTAUTH_GOOGLE_KEY: process.env.NEXTAUTH_NEXTAUTH_GOOGLE_KEY,
   },
 });
 

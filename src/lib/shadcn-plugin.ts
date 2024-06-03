@@ -114,6 +114,11 @@ export const shadcnPlugin = plugin(
             DEFAULT: "hsl(var(--card))",
             foreground: "hsl(var(--card-foreground))",
           },
+          primaryBTM: {
+            DEFAULT: "#2980F5",
+            foreground: "hsl(var(--card-foreground))",
+
+          }
         },
         borderRadius: {
           lg: "var(--radius)",
